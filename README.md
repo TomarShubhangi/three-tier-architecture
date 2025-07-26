@@ -4,9 +4,11 @@ This project demonstrates a basic Three-Tier Web Application using Docker Compos
 - Frontend: Static HTML page served via a Node.js HTTP server
 - Backend: Golang API
 - Database: PostgreSQL with an initialization SQL script
+  
 
 🧱 Architecture
  Client → Frontend (8081) → Backend API (8080) → PostgreSQL DB (5432)
+
 
 📁 Folder Structure
 three-tier-architecture/
@@ -26,6 +28,7 @@ three-tier-architecture/
 │
 └── DB/
     └── init.sql
+    
 
 🚀 How to Run
 1. Clone the Repository:
@@ -39,8 +42,10 @@ three-tier-architecture/
      Frontend: http://<your-public-ip>:8081
      Backend API: http://<your-public-ip>:8080
 
+
 ⚙️ Environment Variables
-    Credentials and configurations should be moved into a .env file and included in .gitignore to avoid accidental exposure.
+   Credentials and configurations should be moved into a .env file and included in .gitignore to avoid accidental exposure.
+
 
 ✅ To-Do for Production
  - Add volumes: for PostgreSQL persistence
@@ -48,8 +53,10 @@ three-tier-architecture/
  - Add healthcheck: to services
  - Set up nginx or traefik reverse proxy (optional)
 
+
 📌 Stop the container
     docker-compose down
+
 📌 What this does:
   - Stops all running containers started by docker-compose up
   - Removes the containers (but not the images or volumes)
