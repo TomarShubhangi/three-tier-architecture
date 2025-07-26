@@ -1,0 +1,16 @@
+# Ignore common files
+*.log
+.env
+*.pem
+*.key
+*.crt
+*.db
+*.sqlite3
+node_modules/
+__pycache__/
+.DS_Store
+Thumbs.db
+*.swp
+vendor/
+bin/
+
