@@ -107,10 +107,15 @@ This project showcases containerized application deployment using Docker Compose
 
 
 📸 Screenshots:
+
 FRONT-END UI
 ![Frontend UI](https://github.com/TomarShubhangi/three-tier-architecture/blob/master/screenshots/frontend.png?raw=true)
+
 
 BACK-END OUTPUT
 ![Backend Output](https://github.com/TomarShubhangi/three-tier-architecture/blob/master/screenshots/backend.png?raw=true)
 
+
+Database (PostgreSQL)
+![Database Screenshot](https://github.com/TomarShubhangi/three-tier-architecture/blob/master/screenshots/database.png?raw=true)
 
