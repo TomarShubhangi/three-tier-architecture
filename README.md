@@ -107,4 +107,7 @@ This project showcases containerized application deployment using Docker Compose
 
 
 📸 Screenshots:
+![Frontend UI](https://github.com/TomarShubhangi/three-tier-architecture/blob/master/screenshots/frontend.png?raw=true)
+
+
 
