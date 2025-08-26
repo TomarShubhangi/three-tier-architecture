@@ -42,7 +42,7 @@ three-tier-architecture/
 
 1. Clone the Repository:
    
-       git clone https://github.com/<your-username>/three-tier-architecture.git
+       git clone https://github.com/TomarShubhangi/three-tier-architecture.git
    
        cd three-tier-architecture
    
@@ -86,5 +86,25 @@ three-tier-architecture/
 
   - Stops all running containers started by docker-compose up
     
-  - Removes the containers (but not the images or volumes)
+  - Removes the containers and default network
+
+  - Does not remove images or named volumes
+
+
+
+📌 Why This Project Matters:
+
+This project showcases containerized application deployment using Docker Compose. It reflects core DevOps and cloud concepts:
+
+- Microservices-style architecture (frontend, backend, DB separation)
+
+- Infrastructure as code (docker-compose)
+
+- Stateless design and container isolation
+
+- Scalable foundation for CI/CD, monitoring, and cloud hosting
+
+
+
+📸 Screenshots:
 
